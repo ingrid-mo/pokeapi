@@ -1,0 +1,72 @@
+body{
+    background: #efefef;
+}
+.opcion__seccion {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.opcion__bar {
+  width: 50% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 18vw;
+  justify-content: space-evenly;
+}
+.logo img {
+  width: 5vw;
+}
+.bighero {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.bighero__img {
+  height: 20vh;
+}
+h1 {
+  font-family: "Handjet", sans-serif;
+  font-weight: 400;
+}
+.pokemon_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vw;
+}
+.pokemon_img {
+    display: flex;
+    align-items: flex-start;
+}
+.pokemon_img img {
+  height: 40vh;
+}
+.background__img {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/weather-7f851.appspot.com/o/Rectangle%2026%20(1).png?alt=media&token=db674dd8-ee9f-42a4-8f44-373d1ca06e22');
+    background-repeat: no-repeat;
+    height: 33vh;
+    position: absolute;
+    z-index: -1;
+    width: 14vw;
+    border-radius: 10px;
+}
+.pokemon_stats{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pokemon_stats h2 {
+    font-family: "Handjet", sans-serif;
+    font-weight: 600;
+}
+.pokemon_stats li {
+    list-style: none;
+}
+.badge{
+    position: absolute;
+}
